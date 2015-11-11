@@ -9,7 +9,7 @@ import numpy
 import h5py
 
 
-bas5=(sys.argv[1])
+bas5=(sys.argv[1]) # the file to be edited
 
 
 with h5py.File('{}'.format(bas5), 'a') as g:   #Open the bas.h5 file in append mode
